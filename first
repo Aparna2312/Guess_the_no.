@@ -16,15 +16,15 @@ public class GuessTheNumber{
                 System.out.println("The no is big");
                 }
             else if(move > theNumber){
-                System.out.println("the no. is small")}
+                System.out.println("the no. is small");}
             else{
-                System.out.println("got the no.")
+                System.out.println("got the no.");
                 break;
                 }
             }
     }
     public static void main(String args[]){
-    GuessTheNumber gameguess = new GuessTheNumber;
+    GuessTheNumber gameguess = new GuessTheNumber();
     System.out.println("welcome to my GAME!!");
     gameguess.play();
     }
