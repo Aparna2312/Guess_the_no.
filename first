@@ -8,7 +8,7 @@ public class GuessTheNumber{
     public GuessTheNumber(){
         Random r1 = new Random();
         max = 100;
-        theNumber = Maths.abs(random.nextInt())% (max+1);
+        theNumber = Maths.abs(random.nextInt())% (max+1);}
     public void play(){
         while(true){
             int move = scan.nextInt();
@@ -23,7 +23,7 @@ public class GuessTheNumber{
                 }
             }
     }
-    public static void main(String args[]){
+    public static void main(String[] args){
     GuessTheNumber gameguess = new GuessTheNumber();
     System.out.println("welcome to my GAME!!");
     gameguess.play();
